@@ -1,0 +1,94 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef; /* Light gray background for the whole page */
+}
+
+header {
+    background-color: #2a3d45; /* Dark teal color for the header */
+    color: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for header */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section Styling */
+.intro, .resume, .biodata {
+    padding: 25px;
+    background-color: #ffffff; /* White background for each section */
+    margin: 25px auto;
+    max-width: 850px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for sections */
+}
+
+/* Unique Background Colors for Different Sections */
+.intro {
+    background-color: #d1e7dd; /* Light green background for Intro */
+    text-align: center;
+}
+
+.resume {
+    background-color: #ffeeba; /* Light beige background for Resume */
+}
+
+.biodata {
+    background-color: #f8d7da; /* Light red-pink background for Biodata */
+}
+
+/* Flexbox Layout for Profile Image and Text */
+.intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Stack content on small screens */
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    max-width: 180px;
+    height: auto; 
+    margin: 15px; 
+    border-radius: 50%; /* Fully rounded image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for profile photo */
+}
+
+.text-container {
+    max-width: 550px;
+    text-align: left;
+}
+
+h1, h2 {
+    color: #212529;
+    font-family: 'Georgia', serif;
+}
+
+
+footer {
+    text-align: center;
+    padding: 12px;
+    background-color: #2a3d45; /* Dark teal footer background */
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Shadow for footer */
+}
